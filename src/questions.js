@@ -1,0 +1,17 @@
+export const questions = [
+  { id: 'works_with_beef', label: 'Você atua diretamente com pecuária de corte?', type: 'radio', options: ['Sim', 'Não'] },
+  { id: 'role', label: 'Qual é sua função principal na operação?', type: 'radio', options: ['Produtor', 'Gerente de fazenda', 'Técnico / consultor', 'Funcionário operacional', 'Estudante', 'Outro'] },
+  { id: 'current_control', label: 'Hoje, como vocês controlam as informações da operação?', type: 'checkbox', options: ['Caderno / papel', 'Planilha', 'WhatsApp', 'Aplicativo', 'Sistema de gestão', 'Não existe controle organizado', 'Outro'] },
+  { id: 'hardest_info', label: 'Qual dessas informações é mais difícil de acompanhar hoje?', type: 'radio', options: ['Ganho médio diário (GMD)', 'Custo por lote', 'Custo por animal', 'Conversão alimentar', 'Consumo de ração / suplemento', 'Despesas emergenciais', 'Clima', 'Vegetação / pastagem', 'Outra'] },
+  { id: 'decision_frequency', label: 'Com que frequência a falta de informação organizada atrapalha decisões na operação?', type: 'radio', options: ['Nunca', 'Raramente', 'Às vezes', 'Frequentemente', 'Sempre'] },
+  { id: 'financial_visibility', label: 'Hoje, você consegue saber com facilidade se um lote está dando bom resultado financeiro?', type: 'radio', options: ['Sim, com facilidade', 'Mais ou menos', 'Tenho dificuldade', 'Não consigo saber com segurança'] },
+  { id: 'financial_impact', label: 'O quanto a falta de controle mais preciso impacta financeiramente a operação?', type: 'radio', options: ['Nenhum impacto', 'Baixo impacto', 'Médio impacto', 'Alto impacto', 'Muito alto impacto'] },
+  { id: 'main_difficulty', label: 'Qual é a maior dificuldade de gestão hoje na pecuária?', type: 'textarea' },
+  { id: 'solution_utility', label: 'Imagine um aplicativo que reúna controle de lotes, custos, ganho de peso, conversão alimentar, despesas emergenciais, clima e vegetação/pastagem. Essa solução seria útil para você?', type: 'radio', options: ['Nada útil', 'Pouco útil', 'Mais ou menos útil', 'Útil', 'Muito útil'] },
+  { id: 'most_valuable_feature', label: 'Qual funcionalidade teria mais valor para você?', type: 'radio', options: ['Controle de custo por lote', 'Controle de ganho de peso', 'Conversão alimentar', 'Separação por macho e fêmea', 'Clima', 'Vegetação / pastagem', 'Relatórios simples', 'Alertas para decisão', 'Outra'] },
+  { id: 'must_have_features', label: 'Quais funcionalidades não poderiam faltar nesse aplicativo?', type: 'textarea' },
+  { id: 'would_test', label: 'Você testaria uma versão inicial desse aplicativo?', type: 'radio', options: ['Sim', 'Talvez', 'Não'] },
+  { id: 'usage_frequency', label: 'Com que frequência você acredita que usaria esse aplicativo?', type: 'radio', options: ['Todo dia', 'Algumas vezes por semana', 'Uma vez por semana', 'Algumas vezes por mês', 'Quase nunca'] },
+  { id: 'would_pay', label: 'Você pagaria por uma ferramenta que realmente ajudasse na gestão da operação?', type: 'radio', options: ['Sim', 'Talvez', 'Não'] },
+  { id: 'price_range', label: 'Qual faixa de valor mensal faria sentido para você?', type: 'radio', options: ['Até R$ 29', 'De R$ 30 a R$ 59', 'De R$ 60 a R$ 99', 'Acima de R$ 100', 'Não pagaria', 'Depende do que entrega'] },
+]
